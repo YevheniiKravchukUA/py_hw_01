@@ -34,5 +34,4 @@ def get_upcoming_birthdays(users):
                 
         greeding_date["congratulation_date"] = greeding_date.get("congratulation_date").strftime("%Y.%m.%d")
 
-    print(f"Greetings dates for next 7 days: {next_week_greetings}")
-    return greeting_dates
+    return next_week_greetings
