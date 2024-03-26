@@ -19,6 +19,6 @@ users = [
             {"name": "Jake Smith", "birthday": "1990.03.28"}]
 
 print(f"Task 1: {get_days_from_today("2024,03,15")} days")
-print(f"Task 2: {get_numbers_ticket(10,20,5)}")
+print(f"Task 2: {get_numbers_ticket(10,16,4)}")
 print(f'Task 3: {normalize_phone("38(050)()-=**-wefsdf151\\\n,19:73")}')
 print(f"Task 4: {get_upcoming_birthdays(users)}")
